@@ -183,6 +183,28 @@ const GF = (() => {
   }
 
   // ════════════════════════════════════════════════════════════
+  //  AD INJECTION (dynamic in-content slots for SPA pages)
+  // ════════════════════════════════════════════════════════════
+  function _loadInContentAd(containerId) {
+    setTimeout(() => {
+      const el = document.getElementById(containerId);
+      if (!el) return;
+      const isDesktop = window.innerWidth >= 728;
+      const key = isDesktop
+        ? '41512dc89917c57a2053a063cf8dce5c'   // 728×90
+        : '817efae70c0653dd21c0c5c397849c6d';   // 320×50
+      // Inline config script (runs synchronously before invoke.js)
+      const cfg = document.createElement('script');
+      cfg.textContent = `atOptions={'key':'${key}','format':'iframe','height':${isDesktop ? 90 : 50},'width':${isDesktop ? 728 : 320},'params':{}};`;
+      el.appendChild(cfg);
+      // Invoke.js reads atOptions immediately after
+      const inv = document.createElement('script');
+      inv.src = `https://www.highperformanceformat.com/${key}/invoke.js`;
+      el.appendChild(inv);
+    }, 150);
+  }
+
+  // ════════════════════════════════════════════════════════════
   //  HOME PAGE  (gradient hero + stats + premium cards)
   // ════════════════════════════════════════════════════════════
   function renderHome(t) {
@@ -259,6 +281,12 @@ const GF = (() => {
         </div>
       </section>
 
+      <!-- ░░ Ad: In-Home Leaderboard ░░ -->
+      <div class="flex flex-col items-center py-3 my-2">
+        <p class="text-xs text-slate-400 mb-2 uppercase tracking-widest">Advertisement</p>
+        <div id="in-home-ad"></div>
+      </div>
+
       <!-- ░░ PDF TOOLS ░░ -->
       <section class="mb-12">
         <h2 class="text-lg font-bold text-slate-700 mb-4 flex items-center gap-2">
@@ -284,6 +312,7 @@ const GF = (() => {
             <p class="text-xs text-slate-500 mt-1 leading-relaxed">${w.desc}</p>
           </div>`).join('')}
       </div>`;
+    _loadInContentAd('in-home-ad');
   }
 
   // ════════════════════════════════════════════════════════════
@@ -348,11 +377,10 @@ const GF = (() => {
         <!-- ░░ Results ░░ -->
         <div id="results" class="mt-5 hidden"></div>
 
-        <!-- ░░ Ad Rectangle ░░ -->
-        <div class="flex justify-center mt-8">
-          <div class="ad-rectangle bg-slate-100 flex items-center justify-center text-slate-400 text-xs rounded-xl">
-            Advertisement
-          </div>
+        <!-- ░░ Ad: In-Content Leaderboard ░░ -->
+        <div class="flex flex-col items-center my-8">
+          <p class="text-xs text-slate-400 mb-2 uppercase tracking-widest">Advertisement</p>
+          <div id="in-tool-ad"></div>
         </div>
 
         <!-- ░░ Content (SEO) ░░ -->
@@ -362,6 +390,7 @@ const GF = (() => {
           ${renderFAQ(td)}
         </div>
       </div>`;
+    _loadInContentAd('in-tool-ad');
   }
 
   // ── Options builder (unchanged logic, improved visual) ─────
