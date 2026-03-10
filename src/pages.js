@@ -1,5 +1,5 @@
 // ═══════════════════════════════════════════════════════════════
-//  FilesTools — pages.js  (v2 — SEO Premium Build)
+//  DragNDropp — pages.js  (v2 — SEO Premium Build)
 //  Brain: i18n, SEO metadata, tool configs, FAQs, Blog.
 //  Every FAQ now targets real long-tail search keywords.
 // ═══════════════════════════════════════════════════════════════
@@ -28,14 +28,14 @@ window.PAGES = (() => {
     // ╚══════════════════════════════════════════╝
     en: {
       lang: 'en', dir: 'ltr',
-      siteName: 'FilesTools',
+      siteName: 'DragNDropp',
       siteTagline: 'Free Online File Tools',
       footerTagline: 'Your files never leave your browser.',
       footerPrivacy: 'Privacy', footerTerms: 'Terms', footerContact: 'Contact',
       nav: { home: 'Home', blog: 'Blog' },
 
       home: {
-        title:       'FilesTools – Free Online File & Image Tools',
+        title:       'DragNDropp – Free Online File & Image Tools',
         description: 'Compress images, convert JPG/PNG/WebP, resize photos, split or merge PDFs — 100% free, 100% in your browser. No upload, no sign-up.',
         h1:          'Free File Tools — Right in Your Browser',
         subtitle:    'No sign-up. No upload. 100% private.',
@@ -102,7 +102,7 @@ window.PAGES = (() => {
           faq: [
             {
               q: 'Is the compression lossless or lossy?',
-              a: 'For JPG and WebP, FilesTools uses <strong>lossy compression</strong> via the browser\'s Canvas API <code>toBlob()</code> with a configurable quality factor (0.01–1.0). Lossy means some pixel data is discarded — invisible at quality 70+ but significant at quality below 40. PNG uses <strong>lossless deflate compression</strong> internally, so no pixel data is lost when you compress a PNG, but the file size savings are smaller (typically 5–20%).',
+              a: 'For JPG and WebP, DragNDropp uses <strong>lossy compression</strong> via the browser\'s Canvas API <code>toBlob()</code> with a configurable quality factor (0.01–1.0). Lossy means some pixel data is discarded — invisible at quality 70+ but significant at quality below 40. PNG uses <strong>lossless deflate compression</strong> internally, so no pixel data is lost when you compress a PNG, but the file size savings are smaller (typically 5–20%).',
             },
             {
               q: 'How much can I reduce the file size?',
@@ -114,7 +114,7 @@ window.PAGES = (() => {
             },
             {
               q: 'Can I compress HEIC or AVIF images?',
-              a: 'Currently FilesTools supports JPG, PNG, WebP, and GIF. HEIC (used by iPhones) and AVIF are not yet supported by the Canvas API in all browsers. To compress HEIC images on Windows or Android, first convert them to JPG using a HEIC converter, then use FilesTools.',
+              a: 'Currently DragNDropp supports JPG, PNG, WebP, and GIF. HEIC (used by iPhones) and AVIF are not yet supported by the Canvas API in all browsers. To compress HEIC images on Windows or Android, first convert them to JPG using a HEIC converter, then use DragNDropp.',
             },
             {
               q: 'Does compressing an image reduce its dimensions (resolution)?',
@@ -126,7 +126,7 @@ window.PAGES = (() => {
             },
             {
               q: 'Are my compressed images uploaded to a server?',
-              a: 'Never. FilesTools processes all images entirely inside your browser using the HTML5 Canvas API. No data is ever sent over the network. This makes it fully compliant with privacy regulations like GDPR and HIPAA for non-medical image use.',
+              a: 'Never. DragNDropp processes all images entirely inside your browser using the HTML5 Canvas API. No data is ever sent over the network. This makes it fully compliant with privacy regulations like GDPR and HIPAA for non-medical image use.',
             },
           ],
         },
@@ -158,16 +158,16 @@ window.PAGES = (() => {
           ],
           faq: [
             {
-              q: 'What formats does FilesTools convert between?',
-              a: 'FilesTools converts between <strong>JPG/JPEG, PNG, and WebP</strong>. GIF (static first frame) is also accepted as input. HEIC (iPhone), AVIF, TIFF, and BMP are not currently supported as they require OS-level codecs not available in the browser Canvas API.',
+              q: 'What formats does DragNDropp convert between?',
+              a: 'DragNDropp converts between <strong>JPG/JPEG, PNG, and WebP</strong>. GIF (static first frame) is also accepted as input. HEIC (iPhone), AVIF, TIFF, and BMP are not currently supported as they require OS-level codecs not available in the browser Canvas API.',
             },
             {
               q: 'How do I convert HEIC to JPG for Windows?',
-              a: 'HEIC files from iPhone cannot be opened natively on Windows 10/11 without the Microsoft HEIC extension. The easiest workaround: (1) on your iPhone, go to Settings → Camera → Formats → "Most Compatible" (this saves as JPG directly), or (2) use AirDrop to Mac which auto-converts to JPG, or (3) use a dedicated HEIC converter first, then use FilesTools to resize or compress the resulting JPG.',
+              a: 'HEIC files from iPhone cannot be opened natively on Windows 10/11 without the Microsoft HEIC extension. The easiest workaround: (1) on your iPhone, go to Settings → Camera → Formats → "Most Compatible" (this saves as JPG directly), or (2) use AirDrop to Mac which auto-converts to JPG, or (3) use a dedicated HEIC converter first, then use DragNDropp to resize or compress the resulting JPG.',
             },
             {
               q: 'Will converting PNG to JPG lose the transparent background?',
-              a: 'Yes — JPG does not support transparency (no alpha channel). FilesTools automatically fills the transparent area with a <strong>white background</strong> before converting. If you need transparency, convert to PNG or WebP instead.',
+              a: 'Yes — JPG does not support transparency (no alpha channel). DragNDropp automatically fills the transparent area with a <strong>white background</strong> before converting. If you need transparency, convert to PNG or WebP instead.',
             },
             {
               q: 'Why is WebP better than JPG for websites?',
@@ -179,7 +179,7 @@ window.PAGES = (() => {
             },
             {
               q: 'Can I batch convert 100 images at once?',
-              a: 'Yes. FilesTools processes all selected files in parallel using <code>Promise.all()</code>. The practical limit is your browser\'s available RAM. For 100 average-sized images (2–5 MB each), you\'ll need approximately 1–2 GB of free RAM.',
+              a: 'Yes. DragNDropp processes all selected files in parallel using <code>Promise.all()</code>. The practical limit is your browser\'s available RAM. For 100 average-sized images (2–5 MB each), you\'ll need approximately 1–2 GB of free RAM.',
             },
           ],
         },
@@ -237,7 +237,7 @@ window.PAGES = (() => {
             },
             {
               q: 'Does resizing work on animated GIFs?',
-              a: 'FilesTools resizes only the <strong>first frame</strong> of animated GIFs (since the Canvas API processes one frame at a time). The output will be a static image. Full animated GIF resizing requires a server-side tool like FFmpeg.',
+              a: 'DragNDropp resizes only the <strong>first frame</strong> of animated GIFs (since the Canvas API processes one frame at a time). The output will be a static image. Full animated GIF resizing requires a server-side tool like FFmpeg.',
             },
             {
               q: 'Can I resize images to standard social media sizes?',
@@ -292,15 +292,15 @@ window.PAGES = (() => {
             },
             {
               q: 'Is my PDF uploaded to a server?',
-              a: 'Never. The pdf-lib.js library runs entirely inside your browser\'s JavaScript engine. Your PDF data never leaves your device, is never transmitted over the internet, and is never stored anywhere. This makes FilesTools suitable for confidential documents, contracts, and medical records.',
+              a: 'Never. The pdf-lib.js library runs entirely inside your browser\'s JavaScript engine. Your PDF data never leaves your device, is never transmitted over the internet, and is never stored anywhere. This makes DragNDropp suitable for confidential documents, contracts, and medical records.',
             },
             {
               q: 'Can I split a password-protected PDF?',
-              a: 'You can split a PDF that has a user password (required to open) if pdf-lib can read it — currently FilesTools does not have a password input field. Password-protected PDFs that deny content extraction (restrictive permissions) cannot be split by pdf-lib without the owner password.',
+              a: 'You can split a PDF that has a user password (required to open) if pdf-lib can read it — currently DragNDropp does not have a password input field. Password-protected PDFs that deny content extraction (restrictive permissions) cannot be split by pdf-lib without the owner password.',
             },
             {
               q: 'Can I split a scanned PDF (image-based PDF)?',
-              a: 'Yes. Scanned PDFs are just regular PDFs where each page contains a raster image. FilesTools splits them exactly like any other PDF. You cannot, however, extract the text from scanned PDFs without OCR (Optical Character Recognition), which is not currently supported.',
+              a: 'Yes. Scanned PDFs are just regular PDFs where each page contains a raster image. DragNDropp splits them exactly like any other PDF. You cannot, however, extract the text from scanned PDFs without OCR (Optical Character Recognition), which is not currently supported.',
             },
           ],
         },
@@ -348,7 +348,7 @@ window.PAGES = (() => {
             },
             {
               q: 'Is there a free alternative to Adobe Acrobat for merging PDFs?',
-              a: 'Yes — FilesTools is completely free and works in any modern browser without installing software. macOS Preview also supports drag-to-reorder merging via the thumbnail sidebar. On Linux, <code>pdfunite</code> (part of poppler-utils) is a powerful command-line option.',
+              a: 'Yes — DragNDropp is completely free and works in any modern browser without installing software. macOS Preview also supports drag-to-reorder merging via the thumbnail sidebar. On Linux, <code>pdfunite</code> (part of poppler-utils) is a powerful command-line option.',
             },
             {
               q: 'Can I reorder individual pages (not just files)?',
@@ -422,8 +422,8 @@ window.PAGES = (() => {
 
       // ── BLOG ──────────────────────────────────────
       blog: {
-        title:    'Blog – File Optimization Tips & Tutorials | FilesTools',
-        description: 'Learn how to compress images for SEO, convert file formats, optimize PDFs, and more. Free guides from FilesTools.',
+        title:    'Blog – File Optimization Tips & Tutorials | DragNDropp',
+        description: 'Learn how to compress images for SEO, convert file formats, optimize PDFs, and more. Free guides from DragNDropp.',
         h1:       'Blog',
         subtitle: 'Tips, tutorials, and in-depth guides for file optimization.',
         posts: [
@@ -447,10 +447,10 @@ window.PAGES = (() => {
                 <li><strong>Animation:</strong> WebP supports animation (like GIF but much smaller). JPEG does not.</li>
                 <li><strong>Lossy compression:</strong> WebP is 25–35% smaller than JPEG at the same quality.</li>
                 <li><strong>Lossless compression:</strong> WebP is 26% smaller than PNG.</li>
-                <li><strong>Encoding speed:</strong> WebP encoding is slower than JPEG — but FilesTools handles this in the browser background.</li>
+                <li><strong>Encoding speed:</strong> WebP encoding is slower than JPEG — but DragNDropp handles this in the browser background.</li>
               </ul>
               <h2>Conclusion</h2>
-              <p>For web use in 2025, WebP is the clear winner in every objective metric. Convert your assets with <a href="/en/image-converter">FilesTools Image Converter</a> — free, instant, and 100% private.</p>
+              <p>For web use in 2025, WebP is the clear winner in every objective metric. Convert your assets with <a href="/en/image-converter">DragNDropp Image Converter</a> — free, instant, and 100% private.</p>
             `,
           },
           {
@@ -484,14 +484,14 @@ window.PAGES = (() => {
             date:    '2025-03-15',
             excerpt: 'You don\'t need a $299/year Adobe subscription to merge PDFs. Learn three methods to combine PDFs in under 60 seconds — including one that works entirely in your browser.',
             content: `
-              <h2>Method 1: FilesTools (Browser-Based, Free)</h2>
-              <p>No software. No account. Works on Windows, Mac, Linux, iOS, and Android. Go to <a href="/en/pdf-merger">FilesTools PDF Merger</a>, upload your PDFs, drag to reorder, and click Merge. Done in under 10 seconds.</p>
+              <h2>Method 1: DragNDropp (Browser-Based, Free)</h2>
+              <p>No software. No account. Works on Windows, Mac, Linux, iOS, and Android. Go to <a href="/en/pdf-merger">DragNDropp PDF Merger</a>, upload your PDFs, drag to reorder, and click Merge. Done in under 10 seconds.</p>
               <h2>Method 2: macOS Preview (Free, Mac Only)</h2>
               <p>Open the first PDF in Preview. Open the View menu and select "Thumbnails". Drag additional PDF files from Finder into the thumbnail sidebar at the position you want. File → Export as PDF to save the merged version.</p>
               <h2>Method 3: Command Line (Linux/Mac, Advanced)</h2>
               <p>Install poppler-utils: <code>sudo apt install poppler-utils</code> (Ubuntu) or <code>brew install poppler</code> (Mac). Then run: <code>pdfunite file1.pdf file2.pdf merged.pdf</code>. This is the fastest method for automation and batch processing.</p>
               <h2>Does Merging PDFs Reduce Quality?</h2>
-              <p>With FilesTools (pdf-lib.js), no — pages are copied at the binary level without any re-rendering. Fonts, vector graphics, and embedded images are preserved exactly. The same applies to Preview and pdfunite.</p>
+              <p>With DragNDropp (pdf-lib.js), no — pages are copied at the binary level without any re-rendering. Fonts, vector graphics, and embedded images are preserved exactly. The same applies to Preview and pdfunite.</p>
               <h2>Common Use Cases</h2>
               <ul>
                 <li>Combining monthly bank statements into one annual PDF</li>
@@ -522,7 +522,7 @@ window.PAGES = (() => {
                 <li><strong>Archive / master files:</strong> Always PNG or TIFF — never JPEG</li>
               </ul>
               <h2>Try It Yourself</h2>
-              <p>Use <a href="/en/image-compressor">FilesTools Image Compressor</a> to see exactly how much file size you lose or gain at different quality settings. The before/after savings badge shows you the percentage reduction in real time.</p>
+              <p>Use <a href="/en/image-compressor">DragNDropp Image Compressor</a> to see exactly how much file size you lose or gain at different quality settings. The before/after savings badge shows you the percentage reduction in real time.</p>
             `,
           },
         ],
@@ -534,14 +534,14 @@ window.PAGES = (() => {
     // ╚══════════════════════════════════════════╝
     pt: {
       lang: 'pt', dir: 'ltr',
-      siteName: 'FilesTools',
+      siteName: 'DragNDropp',
       siteTagline: 'Ferramentas de Arquivo Online Grátis',
       footerTagline: 'Seus arquivos nunca saem do seu navegador.',
       footerPrivacy: 'Privacidade', footerTerms: 'Termos', footerContact: 'Contato',
       nav: { home: 'Início', blog: 'Blog' },
 
       home: {
-        title:       'FilesTools – Ferramentas de Imagem e PDF Online Grátis',
+        title:       'DragNDropp – Ferramentas de Imagem e PDF Online Grátis',
         description: 'Comprima imagens, converta JPG/PNG/WebP, redimensione fotos, divida ou mescle PDFs — 100% grátis, 100% no seu navegador. Sem upload, sem cadastro.',
         h1:          'Ferramentas de Arquivo — Direto no Seu Navegador',
         subtitle:    'Sem cadastro. Sem upload. 100% privado.',
@@ -601,13 +601,13 @@ window.PAGES = (() => {
             'Badge de economia percentual em cada resultado',
           ],
           faq: [
-            { q: 'A compressão é lossless ou lossy?', a: 'Para JPG e WebP, FilesTools usa <strong>compressão lossy</strong> via Canvas API <code>toBlob()</code> com fator de qualidade configurável. Lossy significa que alguns dados de pixel são descartados — invisível em qualidade 70+. PNG usa <strong>compressão lossless deflate</strong> internamente, então nenhum dado de pixel é perdido.' },
+            { q: 'A compressão é lossless ou lossy?', a: 'Para JPG e WebP, DragNDropp usa <strong>compressão lossy</strong> via Canvas API <code>toBlob()</code> com fator de qualidade configurável. Lossy significa que alguns dados de pixel são descartados — invisível em qualidade 70+. PNG usa <strong>compressão lossless deflate</strong> internamente, então nenhum dado de pixel é perdido.' },
             { q: 'Quanto posso reduzir o tamanho do arquivo?', a: 'Imagens fotográficas (muitas cores, gradientes) comprimem 50–80% em qualidade 75. Gráficos flat com poucas cores comprimem 15–30%. Screenshots PNG normalmente comprimem 5–15% pois PNG já é lossless. Converter PNG para WebP antes de comprimir pode dar 40–70% de economia.' },
             { q: 'Qual a diferença entre comprimir JPG e WebP?', a: 'Ambos usam compressão lossy, mas WebP usa um codec mais moderno que alcança <strong>25–35% de arquivos menores que JPEG com a mesma qualidade visual</strong>. Se sua plataforma suporta WebP (todos os navegadores modernos suportam), converta JPG → WebP primeiro usando nosso Conversor de Imagens, depois comprima.' },
-            { q: 'Posso comprimir imagens HEIC ou AVIF?', a: 'Atualmente o FilesTools suporta JPG, PNG, WebP e GIF. HEIC (usado pelo iPhone) e AVIF não são suportados pelo Canvas API em todos os navegadores. Para comprimir HEIC no Windows, primeiro converta para JPG usando um conversor HEIC, depois use o FilesTools.' },
+            { q: 'Posso comprimir imagens HEIC ou AVIF?', a: 'Atualmente o DragNDropp suporta JPG, PNG, WebP e GIF. HEIC (usado pelo iPhone) e AVIF não são suportados pelo Canvas API em todos os navegadores. Para comprimir HEIC no Windows, primeiro converta para JPG usando um conversor HEIC, depois use o DragNDropp.' },
             { q: 'Comprimir uma imagem reduz suas dimensões (resolução)?', a: 'Não. O Compressor de Imagens reduz apenas o tamanho do arquivo (peso em bytes) através da redução de qualidade. As dimensões em pixels (largura × altura) e o DPI permanecem idênticos. Para também reduzir dimensões, use nosso <a href="/pt/image-resizer">Redimensionador</a>.' },
             { q: 'Que configuração de qualidade usar para a web?', a: 'A recomendação padrão da indústria (Google, Cloudinary) é <strong>qualidade 75–85 para JPEG</strong> e <strong>80–90 para WebP</strong>. Essa faixa é perceptualmente lossless para imagens fotográficas e reduz o tamanho em 40–60% vs. qualidade 100 padrão de câmeras.' },
-            { q: 'Minhas imagens são enviadas para um servidor?', a: 'Nunca. O FilesTools processa todas as imagens dentro do seu navegador usando o Canvas API. Nenhum dado é enviado pela rede, tornando o serviço compatível com a LGPD.' },
+            { q: 'Minhas imagens são enviadas para um servidor?', a: 'Nunca. O DragNDropp processa todas as imagens dentro do seu navegador usando o Canvas API. Nenhum dado é enviado pela rede, tornando o serviço compatível com a LGPD.' },
           ],
         },
         'image-converter': {
@@ -623,12 +623,12 @@ window.PAGES = (() => {
           },
           features: ['Converta JPG ↔ PNG ↔ WebP em qualquer direção', 'Conversão em lote', 'PNG preserva canal alpha (transparência)', 'JPG preenche transparência com fundo branco automaticamente', 'WebP é 25–35% menor que JPEG equivalente', 'Zero perda de qualidade PNG → PNG (round-trip lossless)'],
           faq: [
-            { q: 'Como converter HEIC para JPG no Windows?', a: 'Arquivos HEIC do iPhone não abrem nativamente no Windows sem a extensão da Microsoft. As opções mais fáceis: (1) no iPhone, vá em Ajustes → Câmera → Formatos → "Mais Compatível" (salva direto como JPG), ou (2) use um conversor HEIC dedicado primeiro, depois use o FilesTools para redimensionar ou comprimir.' },
-            { q: 'Converter PNG para JPG perde o fundo transparente?', a: 'Sim — JPG não suporta transparência. O FilesTools automaticamente preenche a área transparente com <strong>fundo branco</strong> antes de converter. Para manter transparência, converta para PNG ou WebP.' },
+            { q: 'Como converter HEIC para JPG no Windows?', a: 'Arquivos HEIC do iPhone não abrem nativamente no Windows sem a extensão da Microsoft. As opções mais fáceis: (1) no iPhone, vá em Ajustes → Câmera → Formatos → "Mais Compatível" (salva direto como JPG), ou (2) use um conversor HEIC dedicado primeiro, depois use o DragNDropp para redimensionar ou comprimir.' },
+            { q: 'Converter PNG para JPG perde o fundo transparente?', a: 'Sim — JPG não suporta transparência. O DragNDropp automaticamente preenche a área transparente com <strong>fundo branco</strong> antes de converter. Para manter transparência, converta para PNG ou WebP.' },
             { q: 'Por que WebP é melhor que JPG para sites?', a: 'WebP usa um algoritmo de compressão mais novo que entrega 25–35% de arquivos menores com a mesma qualidade visual comparado ao JPEG. Isso melhora o Core Web Vitals (especialmente o LCP) e reduz custos de banda.' },
             { q: 'A conversão reduz a qualidade da imagem?', a: 'PNG ↔ PNG é totalmente lossless. PNG → WebP lossless também é lossless. PNG/WebP → JPG introduz leve compressão lossy. JPG → PNG aumenta o tamanho mas não recupera artefatos de compressão JPG.' },
-            { q: 'Posso converter 100 imagens de uma vez?', a: 'Sim. O FilesTools processa todos os arquivos em paralelo. O limite prático é a RAM disponível do seu navegador.' },
-            { q: 'Quais formatos o FilesTools converte?', a: 'JPG/JPEG, PNG e WebP. GIF (primeiro frame estático) também é aceito como entrada. HEIC, AVIF, TIFF e BMP não são suportados atualmente.' },
+            { q: 'Posso converter 100 imagens de uma vez?', a: 'Sim. O DragNDropp processa todos os arquivos em paralelo. O limite prático é a RAM disponível do seu navegador.' },
+            { q: 'Quais formatos o DragNDropp converte?', a: 'JPG/JPEG, PNG e WebP. GIF (primeiro frame estático) também é aceito como entrada. HEIC, AVIF, TIFF e BMP não são suportados atualmente.' },
           ],
         },
         'image-resizer': {
@@ -647,7 +647,7 @@ window.PAGES = (() => {
             { q: 'Qual é a resolução máxima de saída?', a: 'O Canvas API do HTML5 suporta no máximo <strong>16.384 × 16.384 pixels</strong> na maioria dos navegadores modernos. Navegadores móveis podem ter limites menores (4.096 × 4.096 px).' },
             { q: 'Redimensionar reduz o tamanho do arquivo?', a: 'Sim — reduzir as dimensões em pixels sempre reduz o tamanho do arquivo proporcionalmente. Dividir largura E altura pela metade reduz a contagem de pixels em 75%, reduzindo o tamanho do arquivo em ~70–80%.' },
             { q: 'O que significa "Travar Proporção"?', a: '"Travar Proporção" significa que ao inserir uma largura, a altura é calculada automaticamente para manter a razão largura:altura original. Isso evita que a imagem pareça esticada ou comprimida.' },
-            { q: 'O redimensionamento funciona em GIFs animados?', a: 'O FilesTools redimensiona apenas o <strong>primeiro frame</strong> de GIFs animados. A saída será uma imagem estática.' },
+            { q: 'O redimensionamento funciona em GIFs animados?', a: 'O DragNDropp redimensiona apenas o <strong>primeiro frame</strong> de GIFs animados. A saída será uma imagem estática.' },
             { q: 'Posso redimensionar para tamanhos padrão de redes sociais?', a: 'Sim. Tamanhos comuns: Instagram feed = 1080×1080 px; Facebook capa = 820×312 px; LinkedIn capa = 1584×396 px. Defina o modo "Por Pixels", destrave a proporção e insira as dimensões desejadas.' },
             { q: 'Posso ampliar (upscale) uma imagem pequena?', a: 'Sim, mas o upscaling causa pixelação pois novos pixels são interpolados a partir dos existentes. Para melhores resultados em ampliações grandes, use uma ferramenta de upscaling com IA depois de redimensionar.' },
           ],
@@ -670,7 +670,7 @@ window.PAGES = (() => {
             { q: 'Qual é o tamanho máximo de PDF que posso dividir?', a: 'Limitado pela RAM disponível do navegador. PDFs de até 100 MB processam bem na maioria dos dispositivos. PDFs muito grandes (200 MB+) podem causar estouro de memória.' },
             { q: 'Meu PDF é enviado para um servidor?', a: 'Nunca. O pdf-lib.js roda inteiramente dentro do motor JavaScript do seu navegador. Seus dados de PDF nunca saem do seu dispositivo, compatível com a LGPD.' },
             { q: 'Posso dividir um PDF protegido por senha?', a: 'Você pode dividir um PDF com senha de usuário se o pdf-lib conseguir lê-lo. PDFs com permissões restritivas que negam extração de conteúdo não podem ser divididos sem a senha do proprietário.' },
-            { q: 'Posso dividir um PDF digitalizado (baseado em imagem)?', a: 'Sim. PDFs digitalizados são PDFs regulares onde cada página contém uma imagem raster. O FilesTools os divide exatamente como qualquer outro PDF.' },
+            { q: 'Posso dividir um PDF digitalizado (baseado em imagem)?', a: 'Sim. PDFs digitalizados são PDFs regulares onde cada página contém uma imagem raster. O DragNDropp os divide exatamente como qualquer outro PDF.' },
           ],
         },
         'pdf-merger': {
@@ -690,7 +690,7 @@ window.PAGES = (() => {
             { q: 'O PDF mesclado será maior que a soma dos originais?', a: 'Ligeiramente, sim — o pdf-lib adiciona uma pequena quantidade de metadados. Mas ele não recomprime nenhum conteúdo, então o aumento de tamanho é negligenciável (menos de 1 KB por arquivo mesclado).' },
             { q: 'A mesclagem preserva hyperlinks e marcadores?', a: 'Hyperlinks externos (links para URLs) são totalmente preservados. Hyperlinks internos podem quebrar pois os números de página mudam. Marcadores (bookmarks) do primeiro PDF são incluídos.' },
             { q: 'Posso mesclar um PDF digitalizado com um baseado em texto?', a: 'Sim. O pdf-lib trata todos os PDFs da mesma forma independentemente do tipo de conteúdo.' },
-            { q: 'Qual alternativa gratuita ao Adobe Acrobat existe para mesclar PDFs?', a: 'FilesTools é gratuito e funciona em qualquer navegador moderno. No macOS, o Preview também suporta mesclagem via arrastar na barra lateral de miniaturas. No Linux, <code>pdfunite</code> (parte do poppler-utils) é uma opção de linha de comando.' },
+            { q: 'Qual alternativa gratuita ao Adobe Acrobat existe para mesclar PDFs?', a: 'DragNDropp é gratuito e funciona em qualquer navegador moderno. No macOS, o Preview também suporta mesclagem via arrastar na barra lateral de miniaturas. No Linux, <code>pdfunite</code> (parte do poppler-utils) é uma opção de linha de comando.' },
             { q: 'Posso reordenar páginas individuais (não apenas arquivos)?', a: 'Atualmente você pode reordenar arquivos inteiros. A reordenação em nível de página está no roadmap.' },
           ],
         },
@@ -718,14 +718,14 @@ window.PAGES = (() => {
       }, // end tools
 
       blog: {
-        title:       'Blog – Dicas e Tutoriais de Otimização de Arquivos | FilesTools',
-        description: 'Aprenda a comprimir imagens para SEO, converter formatos, otimizar PDFs e mais. Guias gratuitos do FilesTools.',
+        title:       'Blog – Dicas e Tutoriais de Otimização de Arquivos | DragNDropp',
+        description: 'Aprenda a comprimir imagens para SEO, converter formatos, otimizar PDFs e mais. Guias gratuitos do DragNDropp.',
         h1:          'Blog',
         subtitle:    'Dicas, tutoriais e guias aprofundados para otimização de arquivos.',
         posts: [
           { slug: 'webp-vs-jpg', title: 'WebP vs JPG em 2025: Tamanho, Qualidade e Suporte de Navegadores Comparados', date: '2025-02-10',
             excerpt: 'WebP entrega 25–35% de arquivos menores que JPEG com qualidade visual equivalente. Comparamos ambos os formatos em tamanho, transparência, suporte e casos de uso.',
-            content: '<h2>O que é WebP?</h2><p>WebP é um formato de imagem moderno desenvolvido pelo Google, projetado para substituir JPEG e PNG para uso na web. Suporta transparência, animação e HDR.</p><h2>Tamanho de Arquivo: WebP vs JPEG</h2><p>Nos benchmarks do Google, WebP lossless é 26% menor que PNG, e WebP lossy é 25–34% menor que JPEG em pontuações SSIM equivalentes.</p><h2>Suporte de Navegadores em 2025</h2><p>WebP é suportado por mais de 96% dos navegadores web globais, incluindo Chrome, Firefox, Edge e Safari 14+. Use WebP para todos os novos projetos web.</p><h2>Conclusão</h2><p>Para uso web em 2025, WebP é o claro vencedor. Converta seus assets com o <a href="/pt/image-converter">Conversor de Imagens FilesTools</a>.</p>',
+            content: '<h2>O que é WebP?</h2><p>WebP é um formato de imagem moderno desenvolvido pelo Google, projetado para substituir JPEG e PNG para uso na web. Suporta transparência, animação e HDR.</p><h2>Tamanho de Arquivo: WebP vs JPEG</h2><p>Nos benchmarks do Google, WebP lossless é 26% menor que PNG, e WebP lossy é 25–34% menor que JPEG em pontuações SSIM equivalentes.</p><h2>Suporte de Navegadores em 2025</h2><p>WebP é suportado por mais de 96% dos navegadores web globais, incluindo Chrome, Firefox, Edge e Safari 14+. Use WebP para todos os novos projetos web.</p><h2>Conclusão</h2><p>Para uso web em 2025, WebP é o claro vencedor. Converta seus assets com o <a href="/pt/image-converter">Conversor de Imagens DragNDropp</a>.</p>',
           },
           { slug: 'comprimir-imagens-seo', title: 'Como a Compressão de Imagens Melhora Diretamente Seu Ranking no Google', date: '2025-03-01',
             excerpt: 'Imagens grandes são a principal causa de páginas lentas. Comprimir imagens é a ação única mais rápida para melhorar o Core Web Vitals — especialmente o LCP.',
@@ -744,14 +744,14 @@ window.PAGES = (() => {
     // ╚══════════════════════════════════════════╝
     es: {
       lang: 'es', dir: 'ltr',
-      siteName: 'FilesTools',
+      siteName: 'DragNDropp',
       siteTagline: 'Herramientas de Archivos Online Gratis',
       footerTagline: 'Tus archivos nunca salen de tu navegador.',
       footerPrivacy: 'Privacidad', footerTerms: 'Términos', footerContact: 'Contacto',
       nav: { home: 'Inicio', blog: 'Blog' },
 
       home: {
-        title:       'FilesTools – Herramientas de Imagen y PDF Online Gratis',
+        title:       'DragNDropp – Herramientas de Imagen y PDF Online Gratis',
         description: 'Comprime imágenes, convierte JPG/PNG/WebP, redimensiona fotos, divide o combina PDFs — 100% gratis, 100% en tu navegador. Sin subida, sin registro.',
         h1:          'Herramientas de Archivos — En Tu Navegador',
         subtitle:    'Sin registro. Sin subida. 100% privado.',
@@ -793,12 +793,12 @@ window.PAGES = (() => {
           howTo: { heading: 'Cómo Comprimir Imágenes Online', steps: ['Haz clic o arrastra tus imágenes.', 'Ajusta el slider de calidad — 75 es el equilibrio ideal.', 'Haz clic en "Comprimir Imágenes".', 'Descarga las imágenes o usa "Descargar Todo como ZIP".'] },
           features: ['100% en el navegador — compatible con privacidad', 'Soporta JPG, PNG, WebP, GIF', 'Compresión por lotes', 'Compresión lossy para JPG/WebP, lossless deflate para PNG', 'Badge de porcentaje de ahorro en cada resultado'],
           faq: [
-            { q: '¿La compresión es lossless o lossy?', a: 'Para JPG y WebP, FilesTools usa <strong>compresión lossy</strong> vía Canvas API. Para PNG, usa <strong>compresión lossless deflate</strong>.' },
+            { q: '¿La compresión es lossless o lossy?', a: 'Para JPG y WebP, DragNDropp usa <strong>compresión lossy</strong> vía Canvas API. Para PNG, usa <strong>compresión lossless deflate</strong>.' },
             { q: '¿Cuánto puedo reducir el tamaño?', a: 'Imágenes fotográficas comprimen 50–80% en calidad 75. Gráficos planos 15–30%. Convertir PNG a WebP antes de comprimir puede dar 40–70% de ahorro.' },
-            { q: '¿Puedo comprimir imágenes HEIC o AVIF?', a: 'Actualmente FilesTools soporta JPG, PNG, WebP y GIF. HEIC y AVIF no son soportados por el Canvas API en todos los navegadores.' },
+            { q: '¿Puedo comprimir imágenes HEIC o AVIF?', a: 'Actualmente DragNDropp soporta JPG, PNG, WebP y GIF. HEIC y AVIF no son soportados por el Canvas API en todos los navegadores.' },
             { q: '¿Comprimir reduce las dimensiones?', a: 'No. Solo reduce el tamaño en bytes. Para reducir dimensiones, usa nuestro <a href="/es/image-resizer">Redimensionador</a>.' },
             { q: '¿Qué calidad usar para la web?', a: 'La recomendación estándar es <strong>calidad 75–85 para JPEG</strong> y <strong>80–90 para WebP</strong>.' },
-            { q: '¿Mis imágenes se suben a un servidor?', a: 'Nunca. FilesTools procesa todo dentro de tu navegador usando la Canvas API.' },
+            { q: '¿Mis imágenes se suben a un servidor?', a: 'Nunca. DragNDropp procesa todo dentro de tu navegador usando la Canvas API.' },
           ],
         },
         'image-converter': {
@@ -809,11 +809,11 @@ window.PAGES = (() => {
           features: ['Convierte JPG ↔ PNG ↔ WebP', 'Conversión por lotes', 'PNG preserva transparencia alpha', 'JPG rellena transparencia con fondo blanco', 'WebP es 25–35% más pequeño que JPEG equivalente'],
           faq: [
             { q: '¿Cómo convertir HEIC a JPG en Windows?', a: 'HEIC del iPhone no se abre nativamente en Windows sin la extensión de Microsoft. Lo más fácil: en iPhone, ve a Ajustes → Cámara → Formatos → "Más Compatible" (guarda directamente como JPG).' },
-            { q: '¿Convertir PNG a JPG pierde el fondo transparente?', a: 'Sí — JPG no soporta transparencia. FilesTools rellena automáticamente con <strong>fondo blanco</strong>. Para mantener transparencia, convierte a PNG o WebP.' },
+            { q: '¿Convertir PNG a JPG pierde el fondo transparente?', a: 'Sí — JPG no soporta transparencia. DragNDropp rellena automáticamente con <strong>fondo blanco</strong>. Para mantener transparencia, convierte a PNG o WebP.' },
             { q: '¿Por qué WebP es mejor que JPG para sitios web?', a: 'WebP usa un algoritmo más moderno que entrega 25–35% de archivos más pequeños con la misma calidad visual, mejorando el Core Web Vitals.' },
             { q: '¿La conversión reduce la calidad?', a: 'PNG ↔ PNG es lossless. PNG → WebP lossless también. PNG/WebP → JPG introduce leve compresión lossy.' },
-            { q: '¿Puedo convertir 100 imágenes a la vez?', a: 'Sí. FilesTools procesa todos los archivos en paralelo.' },
-            { q: '¿Qué formatos convierte FilesTools?', a: 'JPG/JPEG, PNG y WebP. GIF (primer frame estático) también se acepta como entrada.' },
+            { q: '¿Puedo convertir 100 imágenes a la vez?', a: 'Sí. DragNDropp procesa todos los archivos en paralelo.' },
+            { q: '¿Qué formatos convierte DragNDropp?', a: 'JPG/JPEG, PNG y WebP. GIF (primer frame estático) también se acepta como entrada.' },
           ],
         },
         'image-resizer': {
@@ -826,7 +826,7 @@ window.PAGES = (() => {
             { q: '¿Cuál es la resolución máxima de salida?', a: 'El Canvas API soporta máximo <strong>16.384 × 16.384 píxeles</strong> en la mayoría de navegadores.' },
             { q: '¿Redimensionar reduce el tamaño del archivo?', a: 'Sí — reducir dimensiones de píxeles siempre reduce el tamaño del archivo proporcionalmente.' },
             { q: '¿Qué significa "Bloquear Proporción"?', a: 'Significa que al ingresar un ancho, la altura se calcula automáticamente para mantener la razón original. Evita que la imagen se vea estirada.' },
-            { q: '¿El redimensionado funciona en GIFs animados?', a: 'FilesTools redimensiona solo el <strong>primer frame</strong> de GIFs animados.' },
+            { q: '¿El redimensionado funciona en GIFs animados?', a: 'DragNDropp redimensiona solo el <strong>primer frame</strong> de GIFs animados.' },
             { q: '¿Puedo redimensionar a tamaños estándar de redes sociales?', a: 'Sí. Instagram feed = 1080×1080 px; Facebook portada = 820×312 px; LinkedIn portada = 1584×396 px.' },
             { q: '¿Puedo ampliar (upscale) una imagen pequeña?', a: 'Sí, pero el upscaling causa pixelación ya que los nuevos píxeles se interpolan.' },
           ],
@@ -857,7 +857,7 @@ window.PAGES = (() => {
             { q: '¿El PDF combinado será más grande?', a: 'Ligeramente — pdf-lib agrega pequeños metadatos. Pero no recomprime ningún contenido.' },
             { q: '¿Se preservan hipervínculos y marcadores?', a: 'Los hipervínculos externos se preservan totalmente. Los internos pueden romperse. Los marcadores del primer PDF se incluyen.' },
             { q: '¿Puedo combinar un PDF escaneado con uno de texto?', a: 'Sí. pdf-lib trata todos los PDFs igual.' },
-            { q: '¿Hay alternativa gratuita a Adobe Acrobat?', a: 'Sí — FilesTools es completamente gratis. En macOS, Preview también soporta combinar PDFs. En Linux, <code>pdfunite</code> es una opción de línea de comandos.' },
+            { q: '¿Hay alternativa gratuita a Adobe Acrobat?', a: 'Sí — DragNDropp es completamente gratis. En macOS, Preview también soporta combinar PDFs. En Linux, <code>pdfunite</code> es una opción de línea de comandos.' },
             { q: '¿Puedo reordenar páginas individuales?', a: 'Actualmente puedes reordenar archivos completos. La reordenación a nivel de página está en el roadmap.' },
           ],
         },
@@ -879,14 +879,14 @@ window.PAGES = (() => {
       }, // end tools
 
       blog: {
-        title:       'Blog – Consejos y Tutoriales de Optimización de Archivos | FilesTools',
+        title:       'Blog – Consejos y Tutoriales de Optimización de Archivos | DragNDropp',
         description: 'Aprende a comprimir imágenes para SEO, convertir formatos y optimizar PDFs.',
         h1:          'Blog',
         subtitle:    'Consejos, tutoriales y guías detalladas para optimización de archivos.',
         posts: [
           { slug: 'webp-vs-jpg', title: 'WebP vs JPG en 2025: Tamaño, Calidad y Soporte de Navegadores', date: '2025-02-10',
             excerpt: 'WebP entrega 25–35% de archivos más pequeños que JPEG con calidad visual equivalente. Comparamos ambos formatos.',
-            content: '<h2>¿Qué es WebP?</h2><p>WebP es un formato de imagen moderno desarrollado por Google para reemplazar JPEG y PNG en la web. Soporta transparencia, animación y HDR.</p><h2>Soporte de Navegadores en 2025</h2><p>WebP es soportado por más del 96% de los navegadores globales. Para uso web en 2025, WebP es el claro ganador. Convierte con <a href="/es/image-converter">FilesTools Image Converter</a>.</p>',
+            content: '<h2>¿Qué es WebP?</h2><p>WebP es un formato de imagen moderno desarrollado por Google para reemplazar JPEG y PNG en la web. Soporta transparencia, animación y HDR.</p><h2>Soporte de Navegadores en 2025</h2><p>WebP es soportado por más del 96% de los navegadores globales. Para uso web en 2025, WebP es el claro ganador. Convierte con <a href="/es/image-converter">DragNDropp Image Converter</a>.</p>',
           },
           { slug: 'compresion-lossless-vs-lossy', title: 'Compresión Lossless vs Lossy: ¿Cuál Usar?', date: '2025-04-01',
             excerpt: 'Lossless preserva cada píxel. Lossy descarta datos que no puedes ver. Entender la diferencia te ahorra almacenamiento o degradación de calidad.',

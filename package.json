@@ -1,7 +1,7 @@
 {
-  "name": "filestools",
+  "name": "dragndropp",
   "version": "1.0.0",
-  "description": "FilesTools - Free Online File Tools Portal",
+  "description": "DragNDropp - Free Online File Tools Portal",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

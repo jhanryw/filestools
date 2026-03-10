@@ -1,12 +1,12 @@
 // ═══════════════════════════════════════════════════════════════
-//  FilesTools — main.js  (v2 — Premium Build)
+//  DragNDropp — main.js  (v2 — Premium Build)
 //  SPA router + SEO + Ads-Captivity modal + Rich UX
 // ═══════════════════════════════════════════════════════════════
 
 const GF = (() => {
 
   // ── Constants ──────────────────────────────────────────────
-  const SITE_URL  = 'https://filestools.com';
+  const SITE_URL  = 'https://dragndropp.com';
   const LANGS     = ['en', 'pt', 'es'];
   const TOOL_IDS  = PAGES.TOOLS.map(t => t.id);
   const MIN_MODAL_MS = 4000; // Guaranteed ad exposure (ms)
@@ -90,7 +90,7 @@ const GF = (() => {
       canonicalPath = `/${lang}/blog`;
     } else if (page === 'blog-post') {
       const post    = t.blog.posts.find(p => p.slug === blogSlug);
-      title         = post ? `${post.title} | FilesTools` : t.blog.title;
+      title         = post ? `${post.title} | DragNDropp` : t.blog.title;
       description   = post ? post.excerpt : t.blog.description;
       canonicalPath = `/${lang}/blog/${blogSlug}`;
     } else {
@@ -946,7 +946,7 @@ const GF = (() => {
         default: return [];
       }
     } catch (err) {
-      console.error('[FilesTools] Processing error:', err);
+      console.error('[DragNDropp] Processing error:', err);
       return { error: true, message: err.message || 'An error occurred during processing.' };
     }
   }
@@ -1051,7 +1051,7 @@ const GF = (() => {
       zip.file(r.name, blob);
     }
     const content = await zip.generateAsync({ type: 'blob', compression: 'STORE' });
-    downloadBlob(URL.createObjectURL(content), 'filestools-output.zip');
+    downloadBlob(URL.createObjectURL(content), 'dragndropp-output.zip');
   }
 
   function resetTool() {

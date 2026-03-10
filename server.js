@@ -62,7 +62,7 @@ app.get('/sitemap.xml', (req, res) => {
 // Robots.txt
 app.get('/robots.txt', (req, res) => {
   res.type('text/plain');
-  res.send(`User-agent: *\nAllow: /\nSitemap: https://filestools.com/sitemap.xml`);
+  res.send(`User-agent: *\nAllow: /\nSitemap: https://dragndropp.com/sitemap.xml`);
 });
 
 // 404 fallback → SPA
@@ -71,5 +71,5 @@ app.use((req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`FilesTools running on http://localhost:${PORT}`);
+  console.log(`DragNDropp running on http://localhost:${PORT}`);
 });
