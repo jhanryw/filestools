@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ══════════════════════════════════════
+       HOME PAGES
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://filestools.com/pt</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://filestools.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TOOL: image-compressor
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/image-compressor</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-compressor"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/image-compressor</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-compressor"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/image-compressor</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-compressor"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-compressor"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TOOL: image-converter
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/image-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-converter"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/image-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-converter"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/image-converter</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-converter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-converter"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TOOL: image-resizer
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/image-resizer</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-resizer"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/image-resizer</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-resizer"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/image-resizer</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-resizer"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-resizer"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TOOL: pdf-splitter
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/pdf-splitter</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/pdf-splitter"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/pdf-splitter</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/pdf-splitter"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/pdf-splitter</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/pdf-splitter"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/pdf-splitter"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TOOL: pdf-merger
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/pdf-merger</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/pdf-merger"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/pdf-merger</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/pdf-merger"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/pdf-merger</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/pdf-merger"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/pdf-merger"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       TOOL: image-to-pdf
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/image-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-to-pdf"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/image-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-to-pdf"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/image-to-pdf</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/image-to-pdf"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/image-to-pdf"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       BLOG INDEX
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog"/>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog"/>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog"/>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ══════════════════════════════════════
+       BLOG POSTS
+  ══════════════════════════════════════ -->
+
+  <url>
+    <loc>https://filestools.com/en/blog/webp-vs-jpg</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/webp-vs-jpg"/>
+    <lastmod>2025-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/blog/webp-vs-jpg</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/webp-vs-jpg"/>
+    <lastmod>2025-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/es/blog/webp-vs-jpg</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/webp-vs-jpg"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/webp-vs-jpg"/>
+    <lastmod>2025-02-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://filestools.com/en/blog/compress-images-seo</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/compress-images-seo"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/comprimir-imagens-seo"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/compress-images-seo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/compress-images-seo"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/blog/comprimir-imagens-seo</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/compress-images-seo"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/comprimir-imagens-seo"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/compress-images-seo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/compress-images-seo"/>
+    <lastmod>2025-03-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://filestools.com/en/blog/pdf-merge-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/pdf-merge-guide"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/pdf-merge-guide"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/pdf-merge-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/pdf-merge-guide"/>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://filestools.com/pt/blog/pdf-merge-guide</loc>
+    <xhtml:link rel="alternate" hreflang="en"        href="https://filestools.com/en/blog/pdf-merge-guide"/>
+    <xhtml:link rel="alternate" hreflang="pt"        href="https://filestools.com/pt/blog/pdf-merge-guide"/>
+    <xhtml:link rel="alternate" hreflang="es"        href="https://filestools.com/es/blog/pdf-merge-guide"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://filestools.com/en/blog/pdf-merge-guide"/>
+    <lastmod>2025-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
